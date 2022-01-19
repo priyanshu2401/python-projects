@@ -16,10 +16,10 @@ browser.get("https://www.codechef.com/")
 
 username_element=browser.find_element_by_id("edit-name")
 
-username_element.send_keys("priyanshu_2401")
+username_element.send_keys("your_username")
 
 password_element=browser.find_element_by_id("edit-pass")
-password_element.send_keys("Bobby@2001")
+password_element.send_keys("your_password")
 
 time.sleep(4)
 
